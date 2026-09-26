@@ -365,3 +365,93 @@ footer {
         gap: 5px;
     }
 }
+
+
+
+/* KALKI PAGE */
+
+.project-hero {
+    min-height: 70vh;
+}
+
+.project-hero h2 {
+    color: #777;
+    margin-top: 10px;
+}
+
+.project-status {
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    background: white;
+}
+
+.project-status span {
+    display: block;
+    color: #888;
+    font-size: .7rem;
+    font-weight: 800;
+    letter-spacing: .12em;
+    margin-bottom: 10px;
+}
+
+.project-status strong {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.project-status p {
+    color: #777;
+}
+
+.kalki-architecture {
+    max-width: 700px;
+    margin: 40px auto 0;
+}
+
+.kalki-architecture > div {
+    text-align: center;
+}
+
+.kalki-architecture small {
+    display: block;
+    color: #777;
+    font-weight: normal;
+    margin-top: 4px;
+}
+
+.architecture-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.architecture-row > div {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    text-align: center;
+    background: white;
+}
+
+@media (max-width: 750px) {
+
+    .architecture-row {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+div.project-logo{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+}
+
+.project-logo img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
